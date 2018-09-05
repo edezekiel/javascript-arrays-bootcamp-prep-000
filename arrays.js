@@ -33,3 +33,8 @@ function destructivelyAddElementToEndOfArray(arr, element){
 function accessElementInArray(array, index){
   return array[index];
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(arr){
+  var arr = [];
+  arr.shift()
+}
