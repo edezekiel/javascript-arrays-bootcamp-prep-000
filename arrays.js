@@ -26,7 +26,7 @@ function addElementToEndOfArray(arr, element){
 
 function destructivelyAddElementToEndOfArray(arr, element){
   var arr = arr;
-  arr.pop(element);
+  arr.push(element);
   return arr
 }
 
