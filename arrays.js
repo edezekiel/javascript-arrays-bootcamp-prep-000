@@ -8,8 +8,7 @@ var chocolateBars = ["snickers" ,"hundred grand", "kitkat", "skittles"];
 //
 function addElementToBeginningOfArray(arr, element) {
   var arr = [];
-  var newArr = ["element", ...arr];
-  newArr;
+  var arr = ["element", ...arr];
 }
 
 function destructivelyAddElementToBeginningOfArray(arr, element) {
