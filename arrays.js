@@ -1,11 +1,5 @@
 var chocolateBars = ["snickers" ,"hundred grand", "kitkat", "skittles"];
-// var cities = ["New York", "San Francisco"];
-// cities = ["Philadelphia", ...cities];
-// const cats = ["Milo", "Garfield"];
-// const moreCats = ["Felix", ...cats];
-// var myArray = [1, 2, 3];
-// myArray[5] = 5;
-//
+
 function addElementToBeginningOfArray(array, element) {
   var array = array;
   var newArray = [element, ...array];
